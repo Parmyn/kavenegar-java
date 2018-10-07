@@ -10,8 +10,10 @@ package com.kavenegar.sdk.enums;
  */
 public enum MessageStatus {
     Queued(1),
-    Schulded(2),
+    Scheduled(2),
     SentToCenter(4),
+    SentToCenter2(5),
+    Failed(6),
     Delivered(10),
     Undelivered(11),
     Canceled(13),
